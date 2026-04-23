@@ -11,10 +11,10 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const GUILD_ID = "1421792408944775188";
+const GUILD_ID = "1496561572913614858";
 const ADMIN_ID = "1034768829764616202"
 const BOT_TOKEN = ""
-const LOG_CHANNEL_ID = "1422144075842322514";
+const LOG_CHANNEL_ID = "1496762151442845776";
 const MAX_BOTS_PER_WORKER = 3;
 const BAN_FILE = "./bans.json";
 
