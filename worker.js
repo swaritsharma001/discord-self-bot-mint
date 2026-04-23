@@ -138,7 +138,7 @@ let voiceConnections = new Map();
 
   // Set presence
   self.user.setPresence({
-    activities: [{ name: "TEAM ABYSSAL RAIDERS" }],
+    activities: [{ name: "MADE WITH MINTGRAM" }],
     status: "online"
   });
         self.on("ready", () => {
